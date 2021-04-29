@@ -1,4 +1,7 @@
 // lista de endpoints pra usar e a estrutura deles pra chegar nos resultados interessantes
+
+const yargs = require('yargs').argv;
+
 const fetch = require('node-fetch');
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
@@ -10,9 +13,9 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-const idPartida = 23032383; // a partir desse id, podemos consultar na api as partidas anteriories e ir parseando elas
-let bayernMunique = 2672;
-let idTime = bayernMunique;
+const idPartida = yargs.idPartida; // a partir desse id, podemos consultar na api as partidas anteriories e ir parseando elas
+const idTime = yargs.idTime;
+const limite = yargs.limite;
 
 const stats_match_get = (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:London/gismo/stats_match_get/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err)))
 const stats_match_lineup = (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:Berlin/gismo/stats_match_lineup/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err)))
@@ -165,7 +168,7 @@ const parseHistoricoTime = (idPartida,idTime,iteracoes,limite) => {
     })
 }
 
-parseHistoricoTime(idPartida,idTime,0,25)
+parseHistoricoTime(idPartida,idTime,0,limite)
 
 // match_squads.doc[0].data
 // match_squads.doc[0].data.events
