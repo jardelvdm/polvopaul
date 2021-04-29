@@ -1,0 +1,4 @@
+set path=C:\wamp64\bin\mysql\mysql5.7.31\bin
+
+mysqldump --no-create-info -u root -p polvopaul > D:\polvopaul\dados\dados.sql
+mysqldump --no-data -u root -p polvopaul > D:\polvopaul\dados\estrutura.sql
