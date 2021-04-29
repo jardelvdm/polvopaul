@@ -181,14 +181,16 @@ CREATE TABLE `jogadores_partida` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `partida` int(11) NOT NULL,
   `jogador_clube` int(11) NOT NULL,
-  `bet365` int(11) NOT NULL,
-  `time` enum('home','away') NOT NULL,
+  `local` tinyint(1) NOT NULL,
   `titular` tinyint(1) DEFAULT NULL,
   `shirtnumber` int(11) DEFAULT NULL,
   `minutosjogados` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `jogador_clube` (`jogador_clube`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf16;
+  KEY `partida` (`partida`),
+  KEY `jogador_clube` (`jogador_clube`),
+  CONSTRAINT `jogadores_partidas_jogadorID` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`),
+  CONSTRAINT `jogadores_partidas_partidaID` FOREIGN KEY (`partida`) REFERENCES `partida` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -285,4 +287,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29 19:50:37
+-- Dump completed on 2021-04-29 20:04:25
