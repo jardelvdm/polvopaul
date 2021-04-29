@@ -180,7 +180,8 @@ DROP TABLE IF EXISTS `jogadores_partida`;
 CREATE TABLE `jogadores_partida` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `partida` int(11) NOT NULL,
-  `jogador_clube` int(11) NOT NULL,
+  `jogador_clube` int(11) DEFAULT NULL,
+  `bet365` int(11) NOT NULL,
   `local` tinyint(1) NOT NULL,
   `titular` tinyint(1) DEFAULT NULL,
   `shirtnumber` int(11) DEFAULT NULL,
@@ -190,7 +191,7 @@ CREATE TABLE `jogadores_partida` (
   KEY `jogador_clube` (`jogador_clube`),
   CONSTRAINT `jogadores_partidas_jogadorID` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`),
   CONSTRAINT `jogadores_partidas_partidaID` FOREIGN KEY (`partida`) REFERENCES `partida` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB AUTO_INCREMENT=1007 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -223,17 +224,17 @@ DROP TABLE IF EXISTS `partida`;
 CREATE TABLE `partida` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `esporte` int(11) NOT NULL,
-  `campeonato` int(11) NOT NULL,
+  `campeonato` int(11) DEFAULT NULL,
   `bet365` int(11) NOT NULL,
-  `home_id` int(11) NOT NULL,
-  `away_id` int(11) NOT NULL,
+  `home_id` int(11) DEFAULT NULL,
+  `away_id` int(11) DEFAULT NULL,
   `round` int(11) NOT NULL,
   `intervalo_home` int(11) NOT NULL,
   `intervalo_away` int(11) NOT NULL,
   `result_home` int(11) NOT NULL,
   `result_away` int(11) NOT NULL,
-  `period` enum('nt','prorrogação','penalti','') NOT NULL,
-  `vencedor` enum('home','away','none') NOT NULL,
+  `period` enum('nt','prorrogação','penalti','ap') NOT NULL,
+  `vencedor` varchar(100) NOT NULL,
   `week` int(11) NOT NULL,
   `comment` text,
   `stadiumid` int(11) NOT NULL,
@@ -242,7 +243,7 @@ CREATE TABLE `partida` (
   KEY `away_id` (`away_id`),
   CONSTRAINT `partidas_away_clube_ibfk_1` FOREIGN KEY (`away_id`) REFERENCES `clubes` (`id`),
   CONSTRAINT `partidas_home_clube_ibfk_1` FOREIGN KEY (`home_id`) REFERENCES `clubes` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -287,4 +288,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29 21:08:23
+-- Dump completed on 2021-04-29 21:19:51
