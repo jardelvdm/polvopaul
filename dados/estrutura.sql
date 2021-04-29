@@ -170,6 +170,28 @@ CREATE TABLE `jogadores_estatisticas` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `jogadores_partida`
+--
+
+DROP TABLE IF EXISTS `jogadores_partida`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `jogadores_partida` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `partida` int(11) NOT NULL,
+  `jogador_clube` int(11) NOT NULL,
+  `bet365` int(11) NOT NULL,
+  `time` enum('home','away') NOT NULL,
+  `titular` int(11) NULL,
+  `shirtnumber` int(11) NULL,
+  `minutosjogados` int(11) NULL,
+  PRIMARY KEY (`id`),
+  KEY `jogador_clube` (`jogador_clube`),
+  CONSTRAINT `jogadores_clube_partidas_ibfk_1` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf16;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `jogadores_skills`
 --
 
@@ -259,4 +281,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29 17:18:38
+-- Dump completed on 2021-04-29 18:48:42
