@@ -1,0 +1,2730 @@
+[
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/9/liverpool/",
+        "time": "Liverpool"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/10/manchester-city/",
+        "time": "Manchester City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/243/real-madrid/",
+        "time": "Real Madrid"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/21/fc-bayern-munique/",
+        "time": "FC Bayern Munique"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/241/fc-barcelona/",
+        "time": "FC Barcelona"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/73/paris-saint-germain/",
+        "time": "Paris Saint-Germain"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/45/juventus/",
+        "time": "Juventus"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/240/atl%C3%A9tico-de-madrid/",
+        "time": "Atlético de Madrid"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/18/tottenham-hotspur/",
+        "time": "Tottenham Hotspur"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/11/manchester-united/",
+        "time": "Manchester United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/44/fc-internazionale-milano/",
+        "time": "FC Internazionale Milano"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/5/chelsea/",
+        "time": "Chelsea"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/22/borussia-dortmund/",
+        "time": "Borussia Dortmund"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/481/sevilla-fc/",
+        "time": "Sevilla FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/46/lazio/",
+        "time": "Lazio"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/48/napoli/",
+        "time": "Napoli"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/483/villarreal-club-de-f%C3%BAtbol/",
+        "time": "Villarreal Club de Fútbol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1/arsenal/",
+        "time": "Arsenal"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/95/leicester-city/",
+        "time": "Leicester City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112172/rb-leipzig/",
+        "time": "RB Leipzig"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/457/real-sociedad/",
+        "time": "Real Sociedad"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/7/everton/",
+        "time": "Everton"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/47/milan/",
+        "time": "Milan"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/39/atalanta/",
+        "time": "Atalanta"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110/wolverhampton-wanderers/",
+        "time": "Wolverhampton Wanderers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/448/athletic-bilbao/",
+        "time": "Athletic Bilbao"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/32/bayer-04-leverkusen/",
+        "time": "Bayer 04 Leverkusen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/23/borussia-m%C3%B6nchengladbach/",
+        "time": "Borussia Mönchengladbach"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/234/sl-benfica/",
+        "time": "SL Benfica"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/449/real-betis-balompi%C3%A9/",
+        "time": "Real Betis Balompié"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/236/porto/",
+        "time": "Porto"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/19/west-ham-united/",
+        "time": "West Ham United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/69/as-monaco-fc/",
+        "time": "AS Monaco FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/52/roma/",
+        "time": "Roma"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/245/ajax/",
+        "time": "Ajax"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/237/sporting-cp/",
+        "time": "Sporting CP"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/66/olympique-lyonnais/",
+        "time": "Olympique Lyonnais"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/65/losc-lille/",
+        "time": "LOSC Lille"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110832/granada-club-de-f%C3%BAtbol/",
+        "time": "Granada Club de Fútbol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/175/vfl-wolfsburg/",
+        "time": "VfL Wolfsburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1824/eintracht-frankfurt/",
+        "time": "Eintracht Frankfurt"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/219/olympique-de-marseille/",
+        "time": "Olympique de Marseille"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/461/valencia-cf/",
+        "time": "Valencia CF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1860/getafe-cf/",
+        "time": "Getafe CF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2/aston-villa/",
+        "time": "Aston Villa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/247/psv/",
+        "time": "PSV"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1853/levante-uni%C3%B3n-deportiva/",
+        "time": "Levante Unión Deportiva"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/17/southampton/",
+        "time": "Southampton"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110374/acf-fiorentina/",
+        "time": "ACF Fiorentina"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1799/crystal-palace/",
+        "time": "Crystal Palace"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/10029/tsg-hoffenheim/",
+        "time": "TSG Hoffenheim"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/8/leeds-united/",
+        "time": "Leeds United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/166/hertha-berlin/",
+        "time": "Hertha Berlin"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1043/flamengo/",
+        "time": "Flamengo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/13/newcastle-united/",
+        "time": "Newcastle United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/463/deportivo-alav%C3%A9s/",
+        "time": "Deportivo Alavés"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/54/torino/",
+        "time": "Torino"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/479/club-atl%C3%A9tico-osasuna/",
+        "time": "Club Atlético Osasuna"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/280/olympiacos-cfp/",
+        "time": "Olympiacos CFP"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/467/sd-eibar/",
+        "time": "SD Eibar"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1877/boca-juniors/",
+        "time": "Boca Juniors"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1796/burnley/",
+        "time": "Burnley"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/74/stade-rennais-fc/",
+        "time": "Stade Rennais FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1842/cagliari/",
+        "time": "Cagliari"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1035/atl%C3%A9tico-mineiro/",
+        "time": "Atlético Mineiro"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/70/montpellier-h%C3%A9rault-sc/",
+        "time": "Montpellier Hérault SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/450/rc-celta/",
+        "time": "RC Celta"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/598/s%C3%A3o-paulo/",
+        "time": "São Paulo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101059/shakhtar-donetsk/",
+        "time": "Shakhtar Donetsk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111974/sassuolo/",
+        "time": "Sassuolo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1970/tigres-de-la-uanl/",
+        "time": "Tigres de la UANL"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/462/r-valladolid-cf/",
+        "time": "R. Valladolid CF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1876/river-plate/",
+        "time": "River Plate"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1837/sampdoria/",
+        "time": "Sampdoria"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/55/udinese/",
+        "time": "Udinese"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/246/feyenoord/",
+        "time": "Feyenoord"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/325/galatasaray-sk/",
+        "time": "Galatasaray SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1808/brighton-hove-albion/",
+        "time": "Brighton & Hove Albion"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1530/angers-sco/",
+        "time": "Angers SCO"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/452/rcd-espanyol/",
+        "time": "RCD Espanyol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/144/fulham/",
+        "time": "Fulham"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/72/ogc-nice/",
+        "time": "OGC Nice"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/326/fenerbah%C3%A7e-sk/",
+        "time": "Fenerbahçe SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100767/spartak-moscou/",
+        "time": "Spartak Moscou"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1896/sc-braga/",
+        "time": "SC Braga"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/34/fc-schalke-04/",
+        "time": "FC Schalke 04"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/266/sk-slavia-praga/",
+        "time": "SK Slavia Praga"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1878/cruz-azul/",
+        "time": "Cruz Azul"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/206/hellas-verona/",
+        "time": "Hellas Verona"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/327/be%C5%9Fikta%C5%9F-jk/",
+        "time": "Beşiktaş JK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/231/club-brugge-kv/",
+        "time": "Club Brugge KV"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/189/bologna/",
+        "time": "Bologna"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/25/sc-freiburg/",
+        "time": "SC Freiburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/86/rangers-fc/",
+        "time": "Rangers FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/315/pfc-cska-moscow/",
+        "time": "PFC CSKA Moscow"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/31/1-fc-k%C3%B6ln/",
+        "time": "1. FC Köln"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/76/rc-strasbourg-alsace/",
+        "time": "RC Strasbourg Alsace"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1629/gr%C3%AAmio/",
+        "time": "Grêmio"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/383/palmeiras/",
+        "time": "Palmeiras"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/50/parma/",
+        "time": "Parma"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101014/i-stanbul-ba%C5%9Fak%C5%9Fehir-fk/",
+        "time": "İstanbul Başakşehir FK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1032/rayados-de-monterrey/",
+        "time": "Rayados de Monterrey"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1906/az/",
+        "time": "AZ"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1795/watford/",
+        "time": "Watford"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/59/girondins-de-bordeaux/",
+        "time": "Girondins de Bordeaux"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/38/sv-werder-bremen/",
+        "time": "SV Werder Bremen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100409/fc-augsburg/",
+        "time": "FC Augsburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100765/lokomotiv-moskva/",
+        "time": "Lokomotiv Moskva"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1943/afc-bournemouth/",
+        "time": "AFC Bournemouth"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110556/genoa/",
+        "time": "Genoa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/71/fc-nantes/",
+        "time": "FC Nantes"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1048/internacional/",
+        "time": "Internacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101085/racing-club/",
+        "time": "Racing Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101047/dynamo-kyiv/",
+        "time": "Dynamo Kyiv"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1792/norwich-city/",
+        "time": "Norwich City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1968/c%C3%A1diz-cf/",
+        "time": "Cádiz CF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/78/celtic/",
+        "time": "Celtic"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110093/club-atl%C3%A9tico-independiente/",
+        "time": "Club Atlético Independiente"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/191/red-bull-salzburg/",
+        "time": "Red Bull Salzburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/109/west-bromwich-albion/",
+        "time": "West Bromwich Albion"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1819/as-saint-%C3%A9tienne/",
+        "time": "AS Saint-Étienne"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1879/am%C3%A9rica/",
+        "time": "América"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110781/club-le%C3%B3n/",
+        "time": "Club León"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1831/1-fc-union-berlin/",
+        "time": "1. FC Union Berlin"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1053/santos/",
+        "time": "Santos"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/267/sparta-praga/",
+        "time": "Sparta Praga"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110839/sd-huesca/",
+        "time": "SD Huesca"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/379/stade-de-reims/",
+        "time": "Stade de Reims"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101088/v%C3%A9lez-sarsfield/",
+        "time": "Vélez Sarsfield"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/393/paok/",
+        "time": "PAOK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/605/al-hilal/",
+        "time": "Al Hilal"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/211/dinamo-zagreb/",
+        "time": "Dinamo Zagreb"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1794/sheffield-united/",
+        "time": "Sheffield United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/468/elche-club-de-f%C3%BAtbol/",
+        "time": "Elche Club de Fútbol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/64/racing-club-de-lens/",
+        "time": "Racing Club de Lens"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/36/vfb-stuttgart/",
+        "time": "VfB Stuttgart"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/453/rcd-mallorca/",
+        "time": "RCD Mallorca"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/378/stade-brestois-29/",
+        "time": "Stade Brestois 29"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100888/cd-legan%C3%A9s/",
+        "time": "CD Leganés"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/224/n%C3%AEmes-olympique/",
+        "time": "Nîmes Olympique"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/169/1-fsv-mainz-05/",
+        "time": "1. FSV Mainz 05"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/230/royal-antwerp-fc/",
+        "time": "Royal Antwerp FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111059/cear%C3%A1-sporting-club/",
+        "time": "Ceará Sporting Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/673/krc-genk/",
+        "time": "KRC Genk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/436/trabzonspor/",
+        "time": "Trabzonspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1039/club-athletico-paranaense/",
+        "time": "Club Athletico Paranaense"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1887/vit%C3%B3ria-de-guimar%C3%A3es/",
+        "time": "Vitória de Guimarães"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1861/uni%C3%B3n-deportiva-almer%C3%ADa/",
+        "time": "Unión Deportiva Almería"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/278/aek-atenas/",
+        "time": "AEK Atenas"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1925/brentford/",
+        "time": "Brentford"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1013/san-lorenzo-de-almagro/",
+        "time": "San Lorenzo de Almagro"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/674/kaa-gent/",
+        "time": "KAA Gent"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/229/rsc-anderlecht/",
+        "time": "RSC Anderlecht"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111117/fatih-karag%C3%BCmr%C3%BCk-sk/",
+        "time": "Fatih Karagümrük SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/744/rio-ave-fc/",
+        "time": "Rio Ave FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110468/viktoria-plze%C5%88/",
+        "time": "Viktoria Plzeň"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/900/bsc-young-boys/",
+        "time": "BSC Young Boys"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/159/dsc-arminia-bielefeld/",
+        "time": "DSC Arminia Bielefeld"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112026/benevento/",
+        "time": "Benevento"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/896/basel/",
+        "time": "Basel"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/68/fc-metz/",
+        "time": "FC Metz"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111008/club-libertad/",
+        "time": "Club Libertad"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110975/universidad-cat%C3%B3lica/",
+        "time": "Universidad Católica"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/567/fluminense/",
+        "time": "Fluminense"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/819/fc-k%C3%B8benhavn/",
+        "time": "FC København"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101108/club-olimpia/",
+        "time": "Club Olimpia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1880/club-deportivo-guadalajara/",
+        "time": "Club Deportivo Guadalajara"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112893/inter-miami/",
+        "time": "Inter Miami"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110395/club-atl%C3%A9tico-lan%C3%BAs/",
+        "time": "Club Atlético Lanús"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111710/csd-defensa-y-justicia/",
+        "time": "CSD Defensa y Justicia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1881/club-universidad-nacional/",
+        "time": "Club Universidad Nacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101101/junior-fc/",
+        "time": "Junior FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1960/swansea-city/",
+        "time": "Swansea City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/28/hamburger-sv/",
+        "time": "Hamburger SV"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110569/dijon-fco/",
+        "time": "Dijon FCO"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111678/tijuana/",
+        "time": "Tijuana"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111144/seattle-sounders-fc/",
+        "time": "Seattle Sounders FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110396/newells-old-boys/",
+        "time": "Newell's Old Boys"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110062/girona-fc/",
+        "time": "Girona FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111325/club-nacional-de-football/",
+        "time": "Club Nacional de Football"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110406/col%C3%B3n-de-santa-fe/",
+        "time": "Colón de Santa Fe"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1903/fc-utrecht/",
+        "time": "FC Utrecht"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112670/club-atl%C3%A9tico-talleres/",
+        "time": "Club Atlético Talleres"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101037/%C3%A7aykur-rizespor/",
+        "time": "Çaykur Rizespor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110734/crotone/",
+        "time": "Crotone"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111811/ac-monza/",
+        "time": "AC Monza"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111140/portland-timbers/",
+        "time": "Portland Timbers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/687/columbus-crew-sc/",
+        "time": "Columbus Crew SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101041/demir-grup-sivasspor/",
+        "time": "Demir Grup Sivasspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1793/reading/",
+        "time": "Reading"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/670/sporting-charleroi/",
+        "time": "Sporting Charleroi"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/232/standard-li%C3%A8ge/",
+        "time": "Standard Liège"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111019/argentinos-juniors/",
+        "time": "Argentinos Juniors"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1892/pa%C3%A7os-ferreira/",
+        "time": "Paços Ferreira"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/217/lorient-bretagne-sud/",
+        "time": "Lorient Bretagne Sud"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/3/blackburn-rovers/",
+        "time": "Blackburn Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/252/lask/",
+        "time": "LASK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/14/nottingham-forest/",
+        "time": "Nottingham Forest"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1884/panathinaikos-fc/",
+        "time": "Panathinaikos FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1516/fc-midtjylland/",
+        "time": "FC Midtjylland"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112119/atl%C3%A9tico-clube-goianiense/",
+        "time": "Atlético Clube Goianiense"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113142/alanyaspor/",
+        "time": "Alanyaspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111052/fortaleza/",
+        "time": "Fortaleza"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1961/cardiff-city/",
+        "time": "Cardiff City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101114/atlas/",
+        "time": "Atlas"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110147/pachuca/",
+        "time": "Pachuca"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/480/rayo-vallecano/",
+        "time": "Rayo Vallecano"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101083/estudiantes-de-la-plata/",
+        "time": "Estudiantes de La Plata"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1598/bahia/",
+        "time": "Bahia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112139/al-nassr/",
+        "time": "Al Nassr"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112387/al-ahli/",
+        "time": "Al Ahli"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111674/al-shabab/",
+        "time": "Al Shabab"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/741/antalyaspor/",
+        "time": "Antalyaspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111839/guangzhou-evergrande-taobao-fc/",
+        "time": "Guangzhou Evergrande Taobao FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112885/atlanta-united-fc/",
+        "time": "Atlanta United FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111730/kawasaki-frontale/",
+        "time": "Kawasaki Frontale"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110636/fortuna-d%C3%BCsseldorf/",
+        "time": "Fortuna Düsseldorf"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111339/kasimpa%C5%9Fa-sk/",
+        "time": "Kasimpaşa SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/459/real-sporting-de-gij%C3%B3n/",
+        "time": "Real Sporting de Gijón"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110580/rosario-central/",
+        "time": "Rosario Central"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/254/sk-rapid-wien/",
+        "time": "SK Rapid Wien"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111138/minnesota-united-fc/",
+        "time": "Minnesota United FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1477/jeonbuk-hyundai-motors/",
+        "time": "Jeonbuk Hyundai Motors"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112678/club-atl%C3%A9tico-de-san-luis/",
+        "time": "Club Atlético de San Luis"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112606/orlando-city-soccer-club/",
+        "time": "Orlando City Soccer Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/12/middlesbrough/",
+        "time": "Middlesbrough"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1882/toluca/",
+        "time": "Toluca"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/569/vasco-da-gama/",
+        "time": "Vasco da Gama"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/260/cd-tenerife/",
+        "time": "CD Tenerife"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/160/vfl-bochum-1848/",
+        "time": "VfL Bochum 1848"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111044/coritiba/",
+        "time": "Coritiba"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1898/boavista-fc/",
+        "time": "Boavista FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110741/la-spezia/",
+        "time": "La Spezia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/485/hannover-96/",
+        "time": "Hannover 96"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1919/bristol-city/",
+        "time": "Bristol City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1806/stoke-city/",
+        "time": "Stoke City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1438/santa-clara/",
+        "time": "Santa Clara"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/97/millwall/",
+        "time": "Millwall"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/347/lecce/",
+        "time": "Lecce"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/88/birmingham-city/",
+        "time": "Birmingham City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/10031/portimonense-sc/",
+        "time": "Portimonense SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/192/chievo-verona/",
+        "time": "Chievo Verona"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1807/sheffield-wednesday/",
+        "time": "Sheffield Wednesday"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/91/derby-county/",
+        "time": "Derby County"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101020/kayserispor/",
+        "time": "Kayserispor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1909/vitesse/",
+        "time": "Vitesse"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110776/gaziantep/",
+        "time": "Gaziantep"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101007/mke-ankarag%C3%BCc%C3%BC/",
+        "time": "MKE Ankaragücü"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/489/sc-farense/",
+        "time": "SC Farense"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110144/santos-laguna/",
+        "time": "Santos Laguna"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1801/preston-north-end/",
+        "time": "Preston North End"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112996/lafc/",
+        "time": "LAFC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113134/f%C3%BAtbol-club-ju%C3%A1rez/",
+        "time": "Fútbol Club Juárez"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114899/mazatl%C3%A1n-f%C3%BAtbol-club/",
+        "time": "Mazatlán Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111768/beijing-sinobo-guoan-fc/",
+        "time": "Beijing Sinobo Guoan FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1913/sc-heerenveen/",
+        "time": "sc Heerenveen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/607/ittihad-fc/",
+        "time": "Ittihad FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100087/oud-heverlee-leuven/",
+        "time": "Oud-Heverlee Leuven"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112791/spal/",
+        "time": "SPAL"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112540/shanghai-sipg-fc/",
+        "time": "Shanghai SIPG FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101028/hatayspor/",
+        "time": "Hatayspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113259/yeni-malatyaspor/",
+        "time": "Yeni Malatyaspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110827/real-oviedo/",
+        "time": "Real Oviedo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1900/moreirense-fc/",
+        "time": "Moreirense FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15005/sv-zulte-waregem/",
+        "time": "SV Zulte Waregem"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101099/am%C3%A9rica-de-cali/",
+        "time": "América de Cali"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101025/gen%C3%A7lerbirli%C4%9Fi-sk/",
+        "time": "Gençlerbirliği SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110929/kaizer-chiefs/",
+        "time": "Kaizer Chiefs"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/694/colorado-rapids/",
+        "time": "Colorado Rapids"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/320/malm%C3%B6-ff/",
+        "time": "Malmö FF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112134/philadelphia-union/",
+        "time": "Philadelphia Union"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111042/goi%C3%A1s/",
+        "time": "Goiás"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110986/ldu-quito/",
+        "time": "LDU Quito"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2013/kas-eupen/",
+        "time": "KAS Eupen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1746/empoli/",
+        "time": "Empoli"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1473/ulsan-hyundai-horang-i/",
+        "time": "Ulsan Hyundai Horang-i"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/165/spvgg-greuther-f%C3%BCrth/",
+        "time": "SpVgg Greuther Fürth"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111708/atl%C3%A9tico-tucum%C3%A1n/",
+        "time": "Atlético Tucumán"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110502/sv-darmstadt-98/",
+        "time": "SV Darmstadt 98"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101026/g%C3%B6ztepe-sk/",
+        "time": "Göztepe SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/696/sporting-kansas-city/",
+        "time": "Sporting Kansas City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/417/molde-fk/",
+        "time": "Molde FK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/57/aj-auxerre/",
+        "time": "AJ Auxerre"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15/queens-park-rangers/",
+        "time": "Queens Park Rangers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112093/gamba-osaka/",
+        "time": "Gamba Osaka"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111235/1-fc-heidenheim/",
+        "time": "1. FC Heidenheim"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110981/barcelona-sporting-club/",
+        "time": "Barcelona Sporting Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/472/uni%C3%B3n-deportiva-las-palmas/",
+        "time": "Unión Deportiva Las Palmas"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101147/kashima-antlers/",
+        "time": "Kashima Antlers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101146/vissel-kobe/",
+        "time": "Vissel Kobe"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110930/orlando-pirates/",
+        "time": "Orlando Pirates"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112908/independiente-del-valle/",
+        "time": "Independiente del Valle"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/576/holstein-kiel/",
+        "time": "Holstein Kiel"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112809/futebol-clube-de-famalic%C3%A3o/",
+        "time": "Futebol Clube de Famalicão"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110724/kv-mechelen/",
+        "time": "KV Mechelen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1939/huddersfield-town/",
+        "time": "Huddersfield Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/688/dc-united/",
+        "time": "DC United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1888/gil-vicente/",
+        "time": "Gil Vicente"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/10030/sc-paderborn-07/",
+        "time": "SC Paderborn 07"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1907/willem-ii/",
+        "time": "Willem II"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1893/cs-mar%C3%ADtimo/",
+        "time": "CS Marítimo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/573/m%C3%A1laga-club-de-f%C3%BAtbol/",
+        "time": "Málaga Club de Fútbol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1889/belenenses/",
+        "time": "Belenenses"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1871/legia-vars%C3%B3via/",
+        "time": "Legia Varsóvia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/190/brescia/",
+        "time": "Brescia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112535/uni%C3%B3n-la-calera/",
+        "time": "Unión La Calera"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101100/atl%C3%A9tico-nacional/",
+        "time": "Atlético Nacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/294/es-troyes-ac/",
+        "time": "ES Troyes AC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112828/new-york-city-fc/",
+        "time": "New York City FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101110/club-atl%C3%A9tico-pe%C3%B1arol/",
+        "time": "Club Atlético Peñarol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1923/luton-town/",
+        "time": "Luton Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114385/cfr-1907-cluj/",
+        "time": "CFR 1907 Cluj"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100081/kv-kortrijk/",
+        "time": "KV Kortrijk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/517/botafogo/",
+        "time": "Botafogo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1809/toulouse-fc/",
+        "time": "Toulouse FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101148/cerezo-osaka/",
+        "time": "Cerezo Osaka"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/171/1-fc-nuremberg/",
+        "time": "1. FC Nuremberg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101033/konyaspor/",
+        "time": "Konyaspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1915/fc-groningen/",
+        "time": "FC Groningen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110404/banfield/",
+        "time": "Banfield"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111651/toronto-fc/",
+        "time": "Toronto FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/697/los-angeles-galaxy/",
+        "time": "Los Angeles Galaxy"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111701/al-ain-fc/",
+        "time": "Al Ain FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1457/denizlispor/",
+        "time": "Denizlispor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110955/shanghai-shenhua/",
+        "time": "Shanghai Shenhua"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/691/new-england-revolution/",
+        "time": "New England Revolution"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111716/uni%C3%B3n-de-santa-fe/",
+        "time": "Unión de Santa Fe"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110150/gallos-blancos-de-quer%C3%A9taro/",
+        "time": "Gallos Blancos de Querétaro"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2023/sociedad-deportiva-ponferradina/",
+        "time": "Sociedad Deportiva Ponferradina"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101112/vancouver-whitecaps-fc/",
+        "time": "Vancouver Whitecaps FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/675/k-beerschot-va/",
+        "time": "K Beerschot VA"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110329/fc-st-pauli/",
+        "time": "FC St. Pauli"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111711/club-atl%C3%A9tico-hurac%C3%A1n/",
+        "time": "Club Atlético Huracán"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110913/waasland-beveren/",
+        "time": "Waasland-Beveren"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/698/houston-dynamo/",
+        "time": "Houston Dynamo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/680/sint-truidense-vv/",
+        "time": "Sint-Truidense VV"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111560/royal-mouscron-p%C3%A9ruwelz/",
+        "time": "Royal Mouscron-Péruwelz"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1800/coventry-city/",
+        "time": "Coventry City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/269/br%C3%B8ndby-if/",
+        "time": "Brøndby IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114162/nashville-sc/",
+        "time": "Nashville SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/506/fc-erzgebirge-aue/",
+        "time": "FC Erzgebirge Aue"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/62/en-avant-guingamp/",
+        "time": "En Avant Guingamp"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/693/chicago-fire-sc/",
+        "time": "Chicago Fire SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101084/gimnasia-y-esgrima-la-plata/",
+        "time": "Gimnasia y Esgrima La Plata"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111139/impact-montr%C3%A9al/",
+        "time": "Impact Montréal"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110831/club-deportivo-lugo/",
+        "time": "Club Deportivo Lugo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1891/cd-nacional/",
+        "time": "CD Nacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/749/bb-erzurumspor/",
+        "time": "BB Erzurumspor"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101150/fc-tokyo/",
+        "time": "FC Tokyo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100851/fc-cartagena/",
+        "time": "FC Cartagena"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112516/cd-tondela/",
+        "time": "CD Tondela"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100761/fcsb/",
+        "time": "FCSB"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110178/sv-sandhausen-1916/",
+        "time": "SV Sandhausen 1916"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/210/sm-caen/",
+        "time": "SM Caen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100628/fc-emmen/",
+        "time": "FC Emmen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110968/club-bol%C3%ADvar/",
+        "time": "Club Bolívar"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/298/rosenborg-bk/",
+        "time": "Rosenborg BK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111928/san-jose-earthquakes/",
+        "time": "San Jose Earthquakes"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101151/yokohama-f-marinos/",
+        "time": "Yokohama F. Marinos"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1832/karlsruher-sc/",
+        "time": "Karlsruher SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111822/rz-pellets-wolfsberger-ac/",
+        "time": "RZ Pellets Wolfsberger AC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110152/puebla/",
+        "time": "Puebla"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100852/cd-castell%C3%B3n/",
+        "time": "CD Castellón"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1932/barnsley/",
+        "time": "Barnsley"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113157/sanfrecce-hiroshima/",
+        "time": "Sanfrecce Hiroshima"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110394/arsenal-de-sarand%C3%AD/",
+        "time": "Arsenal de Sarandí"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1805/grenoble-foot-38/",
+        "time": "Grenoble Foot 38"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/873/lech-pozna%C5%84/",
+        "time": "Lech Poznań"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1797/rotherham-united/",
+        "time": "Rotherham United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/682/kv-oostende/",
+        "time": "KV Oostende"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/476/ud-logro%C3%B1%C3%A9s/",
+        "time": "UD Logroñés"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/244/real-zaragoza/",
+        "time": "Real Zaragoza"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/897/fc-luzern/",
+        "time": "FC Luzern"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/308/universitatea-craiova/",
+        "time": "Universitatea Craiova"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1908/fc-twente/",
+        "time": "FC Twente"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113149/fc-cincinnati/",
+        "time": "FC Cincinnati"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/271/aarhus-agf/",
+        "time": "Aarhus AGF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/209/sk-sturm-graz/",
+        "time": "SK Sturm Graz"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/319/ifk-g%C3%B6teborg/",
+        "time": "IFK Göteborg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101121/club-necaxa/",
+        "time": "Club Necaxa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112092/nagoya-grampus/",
+        "time": "Nagoya Grampus"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110065/cf-fuenlabrada/",
+        "time": "CF Fuenlabrada"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101145/kashiwa-reysol/",
+        "time": "Kashiwa Reysol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101149/shimizu-s-pulse/",
+        "time": "Shimizu S-Pulse"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1816/amiens-sc/",
+        "time": "Amiens SC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1750/cercle-brugge/",
+        "time": "Cercle Brugge"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/689/new-york-red-bulls/",
+        "time": "New York Red Bulls"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111724/shandong-luneng-taishan-fc/",
+        "time": "Shandong Luneng TaiShan FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/695/fc-dallas/",
+        "time": "FC Dallas"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/634/fortuna-sittard/",
+        "time": "Fortuna Sittard"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100651/vvv-venlo/",
+        "time": "VVV-Venlo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101102/deportivo-cali/",
+        "time": "Deportivo Cali"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111065/real-salt-lake/",
+        "time": "Real Salt Lake"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110581/patronato/",
+        "time": "Patronato"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/702/ifk-norrk%C3%B6ping/",
+        "time": "IFK Norrköping"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/256/fk-austria-wien/",
+        "time": "FK Austria Wien"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112408/al-wehda/",
+        "time": "Al Wehda"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112965/club-atl%C3%A9tico-central-de-c%C3%B3rdoba/",
+        "time": "Club Atlético Central de Córdoba"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110456/valenciennes-fc/",
+        "time": "Valenciennes FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1914/pec-zwolle/",
+        "time": "PEC Zwolle"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/487/vfl-osnabr%C3%BCck/",
+        "time": "VfL Osnabrück"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/81/hibernian/",
+        "time": "Hibernian"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100646/sparta-rotterdam/",
+        "time": "Sparta Rotterdam"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/983/suwon-samsung-bluewings/",
+        "time": "Suwon Samsung Bluewings"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/324/servette-fc/",
+        "time": "Servette FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111239/fc-ingolstadt-04/",
+        "time": "FC Ingolstadt 04"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111575/urawa-red-diamonds/",
+        "time": "Urawa Red Diamonds"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110500/eintracht-braunschweig/",
+        "time": "Eintracht Braunschweig"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/614/ac-ajaccio/",
+        "time": "AC Ajaccio"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111817/paris-fc/",
+        "time": "Paris FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112444/hokkaido-consadole-sapporo/",
+        "time": "Hokkaido Consadole Sapporo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/543/ssv-jahn-regensburg/",
+        "time": "SSV Jahn Regensburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110745/jagiellonia-bia%C5%82ystok/",
+        "time": "Jagiellonia Białystok"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/226/fc-sochaux-montb%C3%A9liard/",
+        "time": "FC Sochaux-Montbéliard"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/77/aberdeen/",
+        "time": "Aberdeen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1952/hull-city/",
+        "time": "Hull City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110069/club-deportivo-mirand%C3%A9s/",
+        "time": "Club Deportivo Mirandés"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111707/club-atl%C3%A9tico-aldosivi/",
+        "time": "Club Atlético Aldosivi"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110197/fc-w%C3%BCrzburger-kickers/",
+        "time": "FC Würzburger Kickers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/10032/fc-lugano/",
+        "time": "FC Lugano"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100634/heracles-almelo/",
+        "time": "Heracles Almelo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/115199/oce%C3%A2nico-fc/",
+        "time": "Oceânico FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100831/ad-alcorc%C3%B3n/",
+        "time": "AD Alcorcón"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/710/djurg%C3%A5rdens-if/",
+        "time": "Djurgårdens IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/433/aik-fotboll/",
+        "time": "AIK Fotboll"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/708/hammarby-if/",
+        "time": "Hammarby IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/650/ado-den-haag/",
+        "time": "ADO Den Haag"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1815/clermont-foot-auvergne-63/",
+        "time": "Clermont Foot Auvergne 63"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110770/fc-sion/",
+        "time": "FC Sion"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1933/wycombe-wanderers/",
+        "time": "Wycombe Wanderers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/820/aalborg-bk/",
+        "time": "Aalborg BK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110746/pogo%C5%84-szczecin/",
+        "time": "Pogoń Szczecin"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/918/fk-bod%C3%B8-glimt/",
+        "time": "FK Bodø/Glimt"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/894/fc-z%C3%BCrich/",
+        "time": "FC Zürich"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112541/wuhan-zall/",
+        "time": "Wuhan Zall"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111779/henan-jianye-fc/",
+        "time": "Henan Jianye FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/982/fc-seoul/",
+        "time": "FC Seoul"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111400/sydney-fc/",
+        "time": "Sydney FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111091/lechia-gda%C5%84sk/",
+        "time": "Lechia Gdańsk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112393/al-taawoun/",
+        "time": "Al Taawoun"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111659/rodez-aveyron-football/",
+        "time": "Rodez Aveyron Football"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1813/chamois-niortais-fc/",
+        "time": "Chamois Niortais FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15021/ce-sabadell-fc/",
+        "time": "CE Sabadell FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112075/spusu-skn-st-p%C3%B6lten/",
+        "time": "spusu SKN St. Pölten"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1738/le-havre-athletic-club/",
+        "time": "Le Havre Athletic Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/106/sunderland/",
+        "time": "Sunderland"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110984/emelec/",
+        "time": "Emelec"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114326/rak%C3%B3w-cz%C4%99stochowa/",
+        "time": "Raków Częstochowa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112389/al-faisaly/",
+        "time": "Al Faisaly"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110747/crac%C3%B3via/",
+        "time": "Cracóvia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110980/colo-colo/",
+        "time": "Colo-Colo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2017/tsv-prolactal-hartberg/",
+        "time": "TSV Prolactal Hartberg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/272/odense-boldklub/",
+        "time": "Odense Boldklub"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112836/vegalta-sendai/",
+        "time": "Vegalta Sendai"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112096/ettifaq-fc/",
+        "time": "Ettifaq FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110974/club-deportivo-jorge-wilstermann/",
+        "time": "Club Deportivo Jorge Wilstermann"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/89/charlton-athletic/",
+        "time": "Charlton Athletic"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112392/al-raed/",
+        "time": "Al Raed"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111706/godoy-cruz/",
+        "time": "Godoy Cruz"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1790/portsmouth/",
+        "time": "Portsmouth"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1873/wis%C5%82a-crac%C3%B3via/",
+        "time": "Wisła Cracóvia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/503/sg-dynamo-dresden/",
+        "time": "SG Dynamo Dresden"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111723/deportivo-pasto/",
+        "time": "Deportivo Pasto"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1854/albacete-balompi%C3%A9/",
+        "time": "Albacete Balompié"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1905/rkc-waalwijk/",
+        "time": "RKC Waalwijk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112847/astra-giurgiu/",
+        "time": "Astra Giurgiu"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/898/st-gallen/",
+        "time": "St. Gallen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114582/deportivo-binacional/",
+        "time": "Deportivo Binacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/700/if-elfsborg/",
+        "time": "IF Elfsborg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113180/viitorul-constan%C5%A3a/",
+        "time": "Viitorul Constanţa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1788/fc-nordsj%C3%A6lland/",
+        "time": "FC Nordsjælland"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113197/yokohama/",
+        "time": "Yokohama"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111773/shenzhen-kaisa/",
+        "time": "Shenzhen Kaisa"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111399/perth-glory/",
+        "time": "Perth Glory"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101105/millonarios-fc/",
+        "time": "Millonarios FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114604/macarthur-fc/",
+        "time": "Macarthur FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112224/melbourne-city/",
+        "time": "Melbourne City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/420/g%C3%B3rnik-zabrze/",
+        "time": "Górnik Zabrze"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1938/peterborough-united/",
+        "time": "Peterborough United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111086/piast-gliwice/",
+        "time": "Piast Gliwice"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/33/tsv-1860-m%C3%BCnchen/",
+        "time": "TSV 1860 München"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1474/pohang-steelers/",
+        "time": "Pohang Steelers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/920/v%C3%A5lerenga-fotball/",
+        "time": "Vålerenga Fotball"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112390/al-fateh/",
+        "time": "Al Fateh"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114023/western-united-fc/",
+        "time": "Western United FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112080/club-sol-de-am%C3%A9rica/",
+        "time": "Club Sol de América"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111010/club-alianza-lima/",
+        "time": "Club Alianza Lima"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112115/gangwon-fc/",
+        "time": "Gangwon FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110765/incheon-united-fc/",
+        "time": "Incheon United FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113183/oita-trinita/",
+        "time": "Oita Trinita"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110321/pau-fc/",
+        "time": "Pau FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15040/wsg-swarovski-tirol/",
+        "time": "WSG Swarovski Tirol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/780/sv-guntamatic-ried/",
+        "time": "SV Guntamatic Ried"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/94/ipswich-town/",
+        "time": "Ipswich Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/82/kilmarnock/",
+        "time": "Kilmarnock"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/29/1-fc-kaiserslautern/",
+        "time": "1. FC Kaiserslautern"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114581/universidad-cat%C3%B3lica-del-ecuador/",
+        "time": "Universidad Católica del Ecuador"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/919/sk-brann/",
+        "time": "SK Brann"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2056/daegu-fc/",
+        "time": "Daegu FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112671/club-nacional/",
+        "time": "Club Nacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111821/fc-flyeralarm-admira/",
+        "time": "FC Flyeralarm Admira"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1951/oxford-united/",
+        "time": "Oxford United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1862/fc-lausanne-sport/",
+        "time": "FC Lausanne-Sport"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114511/sport-huancayo/",
+        "time": "Sport Huancayo"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111766/wellington-phoenix/",
+        "time": "Wellington Phoenix"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113058/abha-club/",
+        "time": "Abha Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110645/viktoria-k%C3%B6ln/",
+        "time": "Viktoria Köln"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15009/sc-rheindorf-altach/",
+        "time": "SC Rheindorf Altach"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1823/as-nancy-lorraine/",
+        "time": "AS Nancy Lorraine"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/27/fc-hansa-rostock/",
+        "time": "FC Hansa Rostock"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/492/sv-wehen-taunusstein/",
+        "time": "SV Wehen-Taunusstein"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114575/club-river-plate-asunci%C3%B3n/",
+        "time": "Club River Plate Asunción"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1926/blackpool/",
+        "time": "Blackpool"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/149/lincoln-city/",
+        "time": "Lincoln City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112637/gaz-metan-media%C8%99/",
+        "time": "Gaz Metan Mediaș"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/2055/sangju-sangmu-fc/",
+        "time": "Sangju Sangmu FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1447/s%C3%B8nderjyske/",
+        "time": "SønderjyskE"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/300/viking-fk/",
+        "time": "Viking FK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111002/centro-atl%C3%A9tico-f%C3%A9nix/",
+        "time": "Centro Atlético Fénix"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113161/shonan-bellmare/",
+        "time": "Shonan Bellmare"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111334/melgar/",
+        "time": "Melgar"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/142/doncaster-rovers/",
+        "time": "Doncaster Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114577/club-always-ready/",
+        "time": "Club Always Ready"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113378/sepsi-osk-sf-gheorghe/",
+        "time": "Sepsi OSK Sf. Gheorghe"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111276/usl-dunkerque/",
+        "time": "USL Dunkerque"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110532/sv-waldhof-mannheim-07/",
+        "time": "SV Waldhof Mannheim 07"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/621/livingston-fc/",
+        "time": "Livingston FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/212/la-berrichonne-de-ch%C3%A2teauroux/",
+        "time": "La Berrichonne de Châteauroux"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1786/randers-fc/",
+        "time": "Randers FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113160/sagan-tosu/",
+        "time": "Sagan Tosu"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/83/motherwell/",
+        "time": "Motherwell"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111092/%C5%9Bl%C4%85sk-wroc%C5%82aw/",
+        "time": "Śląsk Wrocław"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110752/boto%C5%9Fani/",
+        "time": "Botoşani"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100757/dinamo-1948/",
+        "time": "Dinamo 1948"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113217/damac-fc/",
+        "time": "Damac FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114143/al-ain-ksa/",
+        "time": "Al Ain (KSA)"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/711/bk-h%C3%A4cken/",
+        "time": "BK Häcken"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112260/fleetwood-town/",
+        "time": "Fleetwood Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110749/zag%C5%82%C4%99bie-lubin/",
+        "time": "Zagłębie Lubin"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101103/independiente-medell%C3%ADn/",
+        "time": "Independiente Medellín"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112391/al-qadisiyah/",
+        "time": "Al Qadisiyah"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110482/hallescher-fc/",
+        "time": "Hallescher FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110987/sociedad-deportiva-aucas/",
+        "time": "Sociedad Deportiva Aucas"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111393/adelaide-united-fc/",
+        "time": "Adelaide United FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/181/dundee-united/",
+        "time": "Dundee United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1825/msv-duisburg/",
+        "time": "MSV Duisburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/837/dundalk/",
+        "time": "Dundalk"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15015/burton-albion/",
+        "time": "Burton Albion"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/172/spvgg-unterhaching/",
+        "time": "SpVgg Unterhaching"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110501/sportclub-verl/",
+        "time": "Sportclub Verl"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100325/hjk-helsinki/",
+        "time": "HJK Helsinki"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112990/al-batin/",
+        "time": "Al Batin"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113182/voluntari/",
+        "time": "Voluntari"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/127/shrewsbury/",
+        "time": "Shrewsbury"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1798/milton-keynes-dons/",
+        "time": "Milton Keynes Dons"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/121/crewe-alexandra/",
+        "time": "Crewe Alexandra"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110597/sv-meppen/",
+        "time": "SV Meppen"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110313/accrington-stanley/",
+        "time": "Accrington Stanley"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1802/gillingham/",
+        "time": "Gillingham"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1929/plymouth-argyle/",
+        "time": "Plymouth Argyle"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1917/wigan-athletic/",
+        "time": "Wigan Athletic"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112258/gwangju-fc/",
+        "time": "GwangJu FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112659/cusco-f%C3%BAtbol-club/",
+        "time": "Cusco Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100805/st-mirren/",
+        "time": "St. Mirren"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/523/1-fc-saarbr%C3%BCcken/",
+        "time": "1. FC Saarbrücken"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114398/t%C3%BCrkg%C3%BCc%C3%BC-m%C3%BCnchen/",
+        "time": "Türkgücü München"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113391/academica-clinceni/",
+        "time": "Academica Clinceni"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112627/fc-chambly-oise/",
+        "time": "FC Chambly Oise"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1962/bristol-rovers/",
+        "time": "Bristol Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/432/helsingborg-if/",
+        "time": "Helsingborg IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112427/western-sydney-wanderers/",
+        "time": "Western Sydney Wanderers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100804/st-johnstone-fc/",
+        "time": "St. Johnstone FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/922/str%C3%B8msgodset-if/",
+        "time": "Strømsgodset IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113387/afc-chindia-t%C3%A2rgovi%C8%99te/",
+        "time": "AFC Chindia Târgoviște"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/917/stab%C3%A6k-fotball/",
+        "time": "Stabæk Fotball"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114024/club-plaza-de-deportes-colonia/",
+        "time": "Club Plaza de Deportes Colonia"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113459/kristiansund-bk/",
+        "time": "Kristiansund BK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1569/wis%C5%82a-p%C5%82ock/",
+        "time": "Wisła Płock"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1456/odd-bk/",
+        "time": "Odd BK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110588/1-fc-magdeburg/",
+        "time": "1. FC Magdeburg"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112705/coquimbo-unido/",
+        "time": "Coquimbo Unido"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111327/huachipato/",
+        "time": "Huachipato"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/822/vejle-boldklub/",
+        "time": "Vejle Boldklub"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/167/kfc-uerdingen-05/",
+        "time": "KFC Uerdingen 05"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112199/sarpsborg-08/",
+        "time": "Sarpsborg 08"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114147/hermannstadt/",
+        "time": "Hermannstadt"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112378/dalian-professional-football-club/",
+        "time": "Dalian Professional Football Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/4/bolton-wanderers/",
+        "time": "Bolton Wanderers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/100759/fc-arge%C8%99-pite%C8%99ti/",
+        "time": "FC Argeș Pitești"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/101097/audax-italiano/",
+        "time": "Audax Italiano"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112511/warta-pozna%C5%84/",
+        "time": "Warta Poznań"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112667/club-atl%C3%A9tico-nacional-potos%C3%AD/",
+        "time": "Club Atlético Nacional Potosí"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1463/fk-haugesund/",
+        "time": "FK Haugesund"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110592/fsv-zwickau/",
+        "time": "FSV Zwickau"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15048/tranmere-rovers/",
+        "time": "Tranmere Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112259/afc-wimbledon/",
+        "time": "AFC Wimbledon"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111087/podbeskidzie-bielsko-bia%C5%82a/",
+        "time": "Podbeskidzie Bielsko-Biała"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111331/club-deportivo-el-nacional/",
+        "time": "Club Deportivo El Nacional"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110679/fc-bayern-m%C3%BCnchen-ii/",
+        "time": "FC Bayern München II"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113926/salford-city/",
+        "time": "Salford City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1934/swindon-town/",
+        "time": "Swindon Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/981/seongnam-fc/",
+        "time": "Seongnam FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1930/northampton-town/",
+        "time": "Northampton Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1829/vfb-l%C3%BCbeck/",
+        "time": "VfB Lübeck"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113458/ik-sirius/",
+        "time": "IK Sirius"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/306/shamrock-rovers/",
+        "time": "Shamrock Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110750/fc-uta-arad/",
+        "time": "FC UTA Arad"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/15001/lyngby-bk/",
+        "time": "Lyngby BK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113173/%C3%B6stersunds-fk/",
+        "time": "Östersunds FK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114004/pge-fks-stal-mielec/",
+        "time": "PGE FKS Stal Mielec"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1524/ik-start/",
+        "time": "IK Start"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1936/cheltenham-town/",
+        "time": "Cheltenham Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111326/liverpool-f%C3%BAtbol-club/",
+        "time": "Liverpool Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/705/%C3%B6rebro-sk/",
+        "time": "Örebro SK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111329/club-guaran%C3%AD/",
+        "time": "Club Guaraní"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111715/club-atl%C3%A9tico-tigre/",
+        "time": "Club Atlético Tigre"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1446/ac-horsens/",
+        "time": "AC Horsens"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1955/rochdale/",
+        "time": "Rochdale"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114580/delf%C3%ADn-sporting-club/",
+        "time": "Delfín Sporting Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111397/melbourne-victory-fc/",
+        "time": "Melbourne Victory FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110989/caracas-f%C3%BAtbol-club/",
+        "time": "Caracas Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112978/hebei-china-fortune-fc/",
+        "time": "Hebei China Fortune FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1476/busan-ipark/",
+        "time": "Busan I'Park"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1944/cambridge-united/",
+        "time": "Cambridge United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/143/exeter-city/",
+        "time": "Exeter City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112916/aragua-f%C3%BAtbol-club/",
+        "time": "Aragua Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1439/kalmar-ff/",
+        "time": "Kalmar FF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/631/ross-county-fc/",
+        "time": "Ross County FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/357/morecambe/",
+        "time": "Morecambe"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111395/brisbane-roar/",
+        "time": "Brisbane Roar"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114598/club-atl%C3%A9tico-grau/",
+        "time": "Club Atlético Grau"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1920/oldham-athletic/",
+        "time": "Oldham Athletic"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1804/bradford-city/",
+        "time": "Bradford City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110970/club-deportivo-oriente-petrolero/",
+        "time": "Club Deportivo Oriente Petrolero"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112162/jiangsu-fc/",
+        "time": "Jiangsu FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1935/colchester-united/",
+        "time": "Colchester United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112420/mj%C3%B8ndalen-if/",
+        "time": "Mjøndalen IF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/561/forest-green-rovers/",
+        "time": "Forest Green Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1928/port-vale/",
+        "time": "Port Vale"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110890/crawley-town/",
+        "time": "Crawley Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1755/aalesunds-fk/",
+        "time": "Aalesunds FK"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1803/walsall/",
+        "time": "Walsall"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111006/club-sportivo-luque%C3%B1o/",
+        "time": "Club Sportivo Luqueño"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112254/newport-county/",
+        "time": "Newport County"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1480/carlisle-united/",
+        "time": "Carlisle United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111398/newcastle-united-jets-fc/",
+        "time": "Newcastle United Jets FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1757/sandefjord-fotball/",
+        "time": "Sandefjord Fotball"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/113743/varbergs-bois/",
+        "time": "Varbergs BoIS"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/184/hamilton-academical-fc/",
+        "time": "Hamilton Academical FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/286/vaduz/",
+        "time": "Vaduz"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1940/mansfield-town/",
+        "time": "Mansfield Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110815/politehnica-ia%C8%99i/",
+        "time": "Politehnica Iași"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112429/guangzhou-r-f-fc/",
+        "time": "Guangzhou R&F FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112985/cangzhou-mighty-lions/",
+        "time": "Cangzhou Mighty Lions"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112961/qingdao-huanghai/",
+        "time": "Qingdao Huanghai"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111396/central-coast-mariners-fc/",
+        "time": "Central Coast Mariners FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1958/leyton-orient/",
+        "time": "Leyton Orient"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112072/mj%C3%A4llby-aif/",
+        "time": "Mjällby AIF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/361/stevenage/",
+        "time": "Stevenage"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112184/club-atl%C3%A9tico-river-plate/",
+        "time": "Club Atlético River Plate"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1949/scunthorpe-united/",
+        "time": "Scunthorpe United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112169/falkenbergs-ff/",
+        "time": "Falkenbergs FF"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/381/barrow/",
+        "time": "Barrow"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/92/grimsby-town/",
+        "time": "Grimsby Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/1954/southend-united/",
+        "time": "Southend United"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112912/zamora-f%C3%BAtbol-club/",
+        "time": "Zamora Fútbol Club"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112222/harrogate-town/",
+        "time": "Harrogate Town"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111332/estudiantes-de-m%C3%A9rida/",
+        "time": "Estudiantes de Mérida"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/423/st-patricks-athletic/",
+        "time": "St. Patrick's Athletic"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/114623/llaneros-escuela-de-f%C3%BAtbol/",
+        "time": "Llaneros Escuela de Fútbol"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/305/bohemian-fc/",
+        "time": "Bohemian FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110967/club-social-cultural-y-deportivo-blooming/",
+        "time": "Club Social, Cultural y Deportivo Blooming"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/112165/chongqing-dangdai-lifan-fc-swm/",
+        "time": "Chongqing Dangdai Lifan FC SWM"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111774/tianjin-teda-fc/",
+        "time": "Tianjin TEDA FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/110992/mineros-de-guayana/",
+        "time": "Mineros de Guayana"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/563/sligo-rovers/",
+        "time": "Sligo Rovers"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/753/waterford-fc/",
+        "time": "Waterford FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/445/derry-city/",
+        "time": "Derry City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111131/finn-harps/",
+        "time": "Finn Harps"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/834/shelbourne-fc/",
+        "time": "Shelbourne FC"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/422/cork-city/",
+        "time": "Cork City"
+    },
+    {
+        "href": "https://www.fifaindex.com/pt-br/team/111592/passes-livres/",
+        "time": "Passes Livres"
+    }
+]
