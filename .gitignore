@@ -1,0 +1,7 @@
+node_modules
+
+*.jpg
+*.png
+*.psd
+
+dados.sql
