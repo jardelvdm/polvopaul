@@ -32,7 +32,7 @@ CREATE TABLE `campeonatos` (
   PRIMARY KEY (`id`),
   KEY `esporte` (`esporte`),
   CONSTRAINT `campeonatos_ibfk_1` FOREIGN KEY (`esporte`) REFERENCES `esportes` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=150 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=149 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,6 +66,20 @@ CREATE TABLE `esportes` (
   `nome` text COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `eventos_partida`
+--
+
+DROP TABLE IF EXISTS `eventos_partida`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `eventos_partida` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `partida` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -176,6 +190,34 @@ CREATE TABLE `jogadores_skills` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `partida`
+--
+
+DROP TABLE IF EXISTS `partida`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `partida` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `esporte` int(11) NOT NULL,
+  `campeonato` int(11) NOT NULL,
+  `bet365` int(11) NOT NULL,
+  `home_id` int(11) NOT NULL,
+  `away_id` int(11) NOT NULL,
+  `round` int(11) NOT NULL,
+  `intervalo_home` int(11) NOT NULL,
+  `intervalo_away` int(11) NOT NULL,
+  `result_home` int(11) NOT NULL,
+  `result_away` int(11) NOT NULL,
+  `period` enum('nt','prorrogação','penalti','') NOT NULL,
+  `vencedor` enum('home','away','none') NOT NULL,
+  `week` int(11) NOT NULL,
+  `comment` text,
+  `stadiumid` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf16;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `skiils_tipos`
 --
 
@@ -217,4 +259,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29  1:50:58
+-- Dump completed on 2021-04-29 17:18:38
