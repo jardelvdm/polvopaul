@@ -28,6 +28,7 @@ CREATE TABLE `campeonatos` (
   `esporte` int(11) NOT NULL,
   `pais` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `organizador` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `bet365` int(11) DEFAULT NULL,
   `bet365_season` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `esporte` (`esporte`),
@@ -182,12 +183,11 @@ CREATE TABLE `jogadores_partida` (
   `jogador_clube` int(11) NOT NULL,
   `bet365` int(11) NOT NULL,
   `time` enum('home','away') NOT NULL,
-  `titular` int(11) NULL,
-  `shirtnumber` int(11) NULL,
-  `minutosjogados` int(11) NULL,
+  `titular` tinyint(1) DEFAULT NULL,
+  `shirtnumber` int(11) DEFAULT NULL,
+  `minutosjogados` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `jogador_clube` (`jogador_clube`),
-  CONSTRAINT `jogadores_clube_partidas_ibfk_1` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`)
+  KEY `jogador_clube` (`jogador_clube`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -235,8 +235,12 @@ CREATE TABLE `partida` (
   `week` int(11) NOT NULL,
   `comment` text,
   `stadiumid` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf16;
+  PRIMARY KEY (`id`),
+  KEY `home_id` (`home_id`),
+  KEY `away_id` (`away_id`),
+  CONSTRAINT `partidas_away_clube_ibfk_1` FOREIGN KEY (`away_id`) REFERENCES `clubes` (`id`),
+  CONSTRAINT `partidas_home_clube_ibfk_1` FOREIGN KEY (`home_id`) REFERENCES `clubes` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -281,4 +285,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29 18:48:42
+-- Dump completed on 2021-04-29 19:50:37
