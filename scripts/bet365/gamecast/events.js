@@ -3,6 +3,7 @@
 
 const painelEventos = document.querySelector('.common').querySelectorAll('.col-xs-12.col-sm-6')[0] // pega o elemnto da coluna 1 (com a lista de eventos) 
 const eventos = painelEventos.querySelectorAll('.cursor-pointer') // vai retornar as linhas da tabela
+const gamecastID = document.location.pathname.split('/').reverse()[0];
 
 Array.from(eventos).map(linhaEvento => {
     let tds = linhaEvento.children // vai retornar as celulas da linha
@@ -16,24 +17,24 @@ Array.from(eventos).map(linhaEvento => {
     let gol = jogador.includes(':') // o bet 365 bota o placar quando anuncia o gol, entao se tiver o : significa que o valor é 1:0, 1:1...
     let troca = !gol && !!actionData[1] // se não foi um gol tem na célula o nome de um segunod jogador
 
-    let type;
+    let tipoEvento;
 
     if(gol) {
-        type = 'gol'
+        tipoEvento = 'gol'
     } else if (troca) {
-        type = 'troca'
+        tipoEvento = 'troca'
     } else {
-        type = 'cartao'
+        tipoEvento = 'cartao'
     }
 
     let minuto = parseInt(tds[1].querySelector('.graphics-text-on-branding-fill p').innerText);
 
     let o = {
-        team: time == 0 ? 'home' : 'away',
-        type: type,
-        time: minuto,
-        owner: jogador,
-        gamecast: document.location.pathname.split('/').reverse()[0]
+        time: time == 0 ? 'home' : 'away',
+        tipoEvento: tipoEvento,
+        minuto: minuto,
+        jogador: jogador,
+        gamecast: gamecastID
     }
 
     return o;

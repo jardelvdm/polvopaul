@@ -3,6 +3,7 @@
 
 const painelEstatisticas = document.querySelector('.common').querySelectorAll('.col-xs-12.col-sm-6')[1] // pega o elemnto da coluna 2 (com a lista de estatisticas) 
 const estatisticas = painelEstatisticas.querySelectorAll('.panel-body > .row');
+const gamecastID = document.location.pathname.split('/').reverse()[0];
 
 Array.from(estatisticas)
 .filter((i,idx) => idx > 0) // ignora posse de bola pq a estrutura html é diferente
@@ -11,7 +12,7 @@ Array.from(estatisticas)
         param: row.querySelector('.text-uppercase').innerText,
         time1: parseInt(row.querySelector('.graphics-text-primary-color').innerText),
         time2: parseInt(row.querySelector('.graphics-text-secondary-color').innerText),
-        gamecast: document.location.pathname.split('/').reverse()[0]
+        gamecast: gamecastID
     } 
 
     return o

@@ -3,6 +3,7 @@
 
 const lineupsColumns = document.querySelector("#sr-container > div > div > div.container.container-main.contair-full-height-flex-auto > div > div > div > div:nth-child(4) > div.panel.margin-bottom > div > div")
 const tabelas = lineupsColumns.querySelectorAll('table')
+const gamecastID = document.location.pathname.split('/').reverse()[0];
 
 // enjambre pra associar os arrays de jogadores com o time mandante ou visitante
 // e qual tabela é referente a qual qualificação de jogadores
@@ -16,11 +17,9 @@ const dadosJogador = (linhaDadosJogadorTabela) => Array.from(linhaDadosJogadorTa
 
 Array.from(tabelas)
     .filter((tabela, idx) => idx < 4) // só as que interessam
-    .map((tabela,idxTabela) => 
-        [
-            time[idxTabela],
-            qualifJogadores[idxTabela],
-            Array.from(tabela.querySelectorAll('tr.cursor-pointer'))
-                .map(tr => dadosJogador(tr))
-        ]
-    )
+    .map((tabela,idxTabela) => ({
+        time: time[idxTabela],
+        qualifJogadores: qualifJogadores[idxTabela],
+        dadosJogadores: Array.from(tabela.querySelectorAll('tr.cursor-pointer')).map(tr => dadosJogador(tr)),
+        gamecast: gamecastID
+    }))
