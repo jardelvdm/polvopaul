@@ -33,7 +33,7 @@ CREATE TABLE `campeonatos` (
   PRIMARY KEY (`id`),
   KEY `esporte` (`esporte`),
   CONSTRAINT `campeonatos_ibfk_1` FOREIGN KEY (`esporte`) REFERENCES `esportes` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=149 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -45,14 +45,18 @@ DROP TABLE IF EXISTS `clubes`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `clubes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `mediumname` varchar(120) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `abbr` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `nickname` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `país` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `bet365` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `abbr`  varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `founded`  varchar(4) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `iscountry` tinyint(1) NOT NULL,
+  `mediumname` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `name`  varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `nickname`  varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sex` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `suffix` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `bet365` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `country` varchar(20) COLLATE utf8_unicode_ci NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=190 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,7 +70,7 @@ CREATE TABLE `esportes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` text COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -103,7 +107,7 @@ CREATE TABLE `jogadores` (
   `nationality` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
   `nickname` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6134 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -122,7 +126,7 @@ CREATE TABLE `jogadores_clube` (
   KEY `clube` (`clube_id`),
   CONSTRAINT `jogadores_clube_ibfk_1` FOREIGN KEY (`jogador_id`) REFERENCES `jogadores` (`id`),
   CONSTRAINT `jogadores_clube_ibfk_2` FOREIGN KEY (`clube_id`) REFERENCES `clubes` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6134 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -167,7 +171,7 @@ CREATE TABLE `jogadores_estatisticas` (
   PRIMARY KEY (`id`),
   KEY `jogador_clube` (`jogador_clube`),
   CONSTRAINT `jogadores_clube_estatistica_ibfk_1` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4883 DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -191,7 +195,7 @@ CREATE TABLE `jogadores_partida` (
   KEY `jogador_clube` (`jogador_clube`),
   CONSTRAINT `jogadores_partidas_jogadorID` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`),
   CONSTRAINT `jogadores_partidas_partidaID` FOREIGN KEY (`partida`) REFERENCES `partida` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1007 DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -211,7 +215,7 @@ CREATE TABLE `jogadores_skills` (
   KEY `jogador_clube` (`jogador_clube`),
   CONSTRAINT `jogadores_clube_ref_ibfk_1` FOREIGN KEY (`skill_id`) REFERENCES `skills` (`id`),
   CONSTRAINT `jogadores_clube_skill_ibfk_1` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26181 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -229,21 +233,23 @@ CREATE TABLE `partida` (
   `home_id` int(11) DEFAULT NULL,
   `away_id` int(11) DEFAULT NULL,
   `round` int(11) NOT NULL,
-  `intervalo_home` int(11) NOT NULL,
-  `intervalo_away` int(11) NOT NULL,
-  `result_home` int(11) NOT NULL,
-  `result_away` int(11) NOT NULL,
-  `period` enum('nt','prorrogação','penalti','ap') NOT NULL,
+  `intervalo_home` varchar(20) DEFAULT NULL,
+  `intervalo_away` varchar(20) DEFAULT NULL,
+  `result_home` varchar(20) DEFAULT NULL,
+  `result_away` varchar(20) DEFAULT NULL,
+  `period` enum('nt','prorroga├º├úo','penalti','ap') NOT NULL,
   `vencedor` varchar(100) NOT NULL,
   `week` int(11) NOT NULL,
   `comment` text,
   `stadiumid` int(11) NOT NULL,
+  `matchdifficultyrating_home` int(11) NOT NULL,
+  `matchdifficultyrating_away` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `home_id` (`home_id`),
   KEY `away_id` (`away_id`),
   CONSTRAINT `partidas_away_clube_ibfk_1` FOREIGN KEY (`away_id`) REFERENCES `clubes` (`id`),
   CONSTRAINT `partidas_home_clube_ibfk_1` FOREIGN KEY (`home_id`) REFERENCES `clubes` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -257,7 +263,7 @@ CREATE TABLE `skiils_tipos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `tipo` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -276,7 +282,7 @@ CREATE TABLE `skills` (
   PRIMARY KEY (`id`),
   KEY `tipo` (`tipo`),
   CONSTRAINT `skills_ibfk_1` FOREIGN KEY (`tipo`) REFERENCES `skiils_tipos` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -288,4 +294,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-29 21:19:51
+-- Dump completed on 2021-04-30 22:27:13
