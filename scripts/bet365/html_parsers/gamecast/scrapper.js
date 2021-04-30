@@ -168,7 +168,11 @@ const parseHistoricoTime = (idPartida,idTime,iteracoes,limite) => {
     })
 }
 
-parseHistoricoTime(idPartida,idTime,0,limite)
+connection.query(insereJogadoresRelacionados, function (error, results, fields) {
+    if (error) throw error;
+    // console.log('insert stats_match_lineup:', results);
+});
+// parseHistoricoTime(idPartida,idTime,0,limite)
 
 // match_squads.doc[0].data
 // match_squads.doc[0].data.events
