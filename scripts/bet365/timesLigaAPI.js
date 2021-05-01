@@ -2,19 +2,23 @@ const models = require('./models'),
       API = require('./api'),
       db = require('./db');
 
-let idTemporada = 77179;
+db.connect().then(() => {
+    db.campeonato(905).then(campeonatos => console.log(campeonatos))
+})
 
-API.detalhesLiga(idTemporada).then(dadosLiga => {
+// let idTemporada = 77179;
 
-    // API.timesLiga(idTemporada)
-    // console.log('dadosLiga',dadosLiga)
+// API.detalhesLiga(idTemporada).then(dadosLiga => {
 
-    // const statsTimesLiga = Object.values(dadosLiga.stats);
+//     // API.timesLiga(idTemporada)
+//     // console.log('dadosLiga',dadosLiga)
 
-    // const timesLiga = statsTimesLiga.map(time => time.team);
+//     // const statsTimesLiga = Object.values(dadosLiga.stats);
+
+//     // const timesLiga = statsTimesLiga.map(time => time.team);
 
           
-})
+// })
 
 // const erros = [];
 
