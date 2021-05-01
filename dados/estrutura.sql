@@ -26,14 +26,16 @@ CREATE TABLE `campeonatos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `esporte` int(11) NOT NULL,
-  `pais` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pais` int(11) DEFAULT NULL,
   `organizador` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `bet365` int(11) DEFAULT NULL,
   `bet365_season` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `esporte` (`esporte`),
+  KEY `pais` (`pais`) USING BTREE,
+  CONSTRAINT `campeonato_pais` FOREIGN KEY (`pais`) REFERENCES `paises` (`id`),
   CONSTRAINT `campeonatos_ibfk_1` FOREIGN KEY (`esporte`) REFERENCES `esportes` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1938 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -45,16 +47,16 @@ DROP TABLE IF EXISTS `clubes`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `clubes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `abbr`  varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `founded`  varchar(4) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `abbr` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `founded` varchar(4) COLLATE utf8_unicode_ci DEFAULT NULL,
   `iscountry` tinyint(1) NOT NULL,
   `mediumname` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `name`  varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `nickname`  varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `nickname` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `sex` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `suffix` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `bet365` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
-  `country` varchar(20) COLLATE utf8_unicode_ci NULL,
+  `country` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -70,7 +72,7 @@ CREATE TABLE `esportes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` text COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -219,6 +221,21 @@ CREATE TABLE `jogadores_skills` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `paises`
+--
+
+DROP TABLE IF EXISTS `paises`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `paises` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) NOT NULL,
+  `bet365` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=127 DEFAULT CHARSET=utf16;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `partida`
 --
 
@@ -294,4 +311,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-30 22:27:13
+-- Dump completed on 2021-05-01  1:13:50
