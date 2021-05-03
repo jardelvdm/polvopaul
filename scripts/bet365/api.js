@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const API = {
     stats: {
         season: {
@@ -6,7 +8,7 @@ const API = {
         },
         match: {
             stats_match_get: (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:Berlin/gismo/stats_match_lineup/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
-            stats_match_timeline: (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:Berlin/gismo/stats_match_lineup/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
+            stats_match_timeline: (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:London/gismo/stats_match_timeline/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
             stats_match_lineup: (idPartida) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/en/Europe:Berlin/gismo/stats_match_lineup/${idPartida}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err)))
         }
     },
