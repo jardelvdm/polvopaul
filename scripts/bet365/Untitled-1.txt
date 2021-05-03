@@ -1,0 +1,103 @@
+matches: 33,
+homematches: 17,
+awaymatches: 16,
+goalsscored: {
+    p1: { total: 14, average: 0.42, atleastonegoal: 8, matches: 33 },
+    p1home: { total: 7, average: 0.41, atleastonegoal: 5, matches: 17 },
+    p1away: { total: 7, average: 0.44, atleastonegoal: 3, matches: 16 },
+    ft: { total: 32, average: 0.97, atleastonegoal: 22, matches: 33 },
+    fthome: { total: 18, average: 1.06, atleastonegoal: 13, matches: 17 },
+    ftaway: { total: 14, average: 0.88, atleastonegoal: 9, matches: 16 },
+    p2: { total: 18, average: 0.55, atleastonegoal: 16, matches: 33 },
+    p2home: { total: 11, average: 0.65, atleastonegoal: 10, matches: 17 },
+    p2away: { total: 7, average: 0.44, atleastonegoal: 6, matches: 16 }
+},
+conceded: {
+    p1: { total: 21, average: 0.64, cleansheets: 17, matches: 33 },
+    p1home: { total: 13, average: 0.76, cleansheets: 9, matches: 17 },
+    p1away: { total: 8, average: 0.5, cleansheets: 8, matches: 16 },
+    ft: { total: 45, average: 1.36, cleansheets: 10, matches: 33 },
+    fthome: { total: 22, average: 1.29, cleansheets: 5, matches: 17 },
+    ftaway: { total: 23, average: 1.44, cleansheets: 5, matches: 16 },
+    p2: { total: 24, average: 0.73, cleansheets: 17, matches: 33 },
+    p2home: { total: 9, average: 0.53, cleansheets: 9, matches: 17 },
+    p2away: { total: 15, average: 0.94, cleansheets: 8, matches: 16 }
+},
+total: {
+    p1: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    ft: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    p2: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    }
+},
+home: {
+    p1: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    ft: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    p2: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    }
+},
+away: {
+    p1: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    ft: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    },
+    p2: {
+    '0.5': [Object],
+    '1.5': [Object],
+    '2.5': [Object],
+    '3.5': [Object],
+    '4.5': [Object],
+    '5.5': [Object]
+    }
+}
