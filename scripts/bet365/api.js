@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const API = {
     stats: {
         season: {
-            uverUnder: (idTemporada) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:London/gismo/stats_season_overunder/${idTemporada}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
+            overUnder: (idTemporada) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:London/gismo/stats_season_overunder/${idTemporada}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
             fixtures: (idTemporada) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:London/gismo/stats_season_fixtures2/${idTemporada}/1`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
         },
         match: {
@@ -13,7 +13,7 @@ const API = {
         }
     },
     detalhesLiga: idTemporada => API.stats.season.fixtures(idTemporada),
-    timesLiga: (idTemporada) => new Promise((resolve,reject) => API.stats.season.uverUnder(idTemporada).then(data => resolve(Object.values(data.stats))).catch(err => reject(err))),
+    timesLiga: (idTemporada) => new Promise((resolve,reject) => API.stats.season.overUnder(idTemporada).then(data => resolve(Object.values(data.stats))).catch(err => reject(err))),
     partidasTemporada: idTemporada => new Promise((resolve,reject) => API.detalhesLiga(idTemporada).then(todosDadosDaLiga => resolve(todosDadosDaLiga.matches)).catch(err => reject(err))),
     infosTime: (idTime) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:Berlin/gismo/stats_team_info/${idTime}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
     plantelTime: (idTime) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:London/gismo/stats_team_squad/${idTime}`).then(res => res.json()).then(res => resolve({tecnico: res.doc[0].data.managers[0], jogadores: res.doc[0].data.players})).catch(err => reject(err))),
@@ -47,7 +47,8 @@ const API = {
             })
         })
     }),
-    timeEsperado: (idTime,idTemporada) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:Berlin/gismo/stats_team_usuallineup/${idTime}/${idTemporada}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err)))
+    timeEsperado: (idTime,idTemporada) => new Promise((resolve,reject) => fetch(`https://stats.fn.sportradar.com/bet365/br/Europe:Berlin/gismo/stats_team_usuallineup/${idTime}/${idTemporada}`).then(res => res.json()).then(res => resolve(res.doc[0].data)).catch(err => reject(err))),
+    overunderTimes: (idTemporada) =>  new Promise((resolve,reject) => API.stats.season.overUnder(idTemporada).then(data => resolve(Object.values(data.stats))).catch(err => reject(err)))
 }
 
 module.exports = API;

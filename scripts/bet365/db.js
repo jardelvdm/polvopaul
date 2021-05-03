@@ -97,11 +97,11 @@ const db = {
             resolve(registroJogadoresClube_result);
         })  
     }),
-    timesPais: paisNome => new Promise((resolve,reject) => {
-        connection.query(`SELECT * FROM paises INNER JOIN clubes ON clubes.country = paises.id WHERE paises.nome = "${paisNome}"`, function (error, registroJogadoresClube_result, fields) {
+    timesPais: paisID => new Promise((resolve,reject) => {
+        connection.query(`SELECT * FROM paises INNER JOIN clubes ON clubes.country = paises.id WHERE paises.id = "${paisID}"`, function (error, timesPais, fields) {
             if(error) reject(error)
 
-            resolve(registroJogadoresClube_result);
+            resolve(timesPais);
         })  
     }),
     partidas: {
