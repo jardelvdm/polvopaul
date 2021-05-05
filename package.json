@@ -4,6 +4,7 @@
   "description": "Coletar dados de ligas, times, jogos e jogadores pra tentar prever possibilidades e ganhar dinheiro fácil",
   "main": "index.js",
   "scripts": {
+    "start": "node UI/server.js -p 7777 .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
