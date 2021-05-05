@@ -1,7 +1,7 @@
 const fs = require('fs');
 const models = require('./models'),
       API = require('./api'),
-      db = require('./db');
+      db = require('../db');
 
 // [64,45,3,51]
 // [inglaterra,espanha,alemanha,franca]

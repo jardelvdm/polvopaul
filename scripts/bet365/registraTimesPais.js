@@ -1,6 +1,6 @@
 const models = require('./models'),
       API = require('./api'),
-      db = require('./db');
+      db = require('../db');
 
 db.connect().then(() => {
     const queryCampeonatosDePaises = "SELECT * FROM `paises` AS `p` INNER JOIN `campeonatos` ON `campeonatos`.`pais` = `p`.`id` WHERE `p`.`nome` = 'Brasil'  GROUP BY `campeonatos`.`bet365_season`";

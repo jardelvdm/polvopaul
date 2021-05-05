@@ -1,6 +1,6 @@
 const models = require('./models'),
       API = require('./api'),
-      db = require('./db');
+      db = require('../db');
 
 db.connect().then(() => {
     let query;
