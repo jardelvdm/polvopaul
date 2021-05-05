@@ -104,6 +104,22 @@ const db = {
             resolve(timesPais);
         })  
     }),
+    auditoria: {
+        paisesQueHaClubesCadastrados: () => db.freestyle(`SELECT paises.nome FROM clubes INNER JOIN paises ON paises.id = clubes.country GROUP BY paises.id`),
+        campeonatosSemClubes: () => db.freestyle(``),
+        clubesRepetidos: () => db.freestyle(``),
+        clubesSemEstatisticas: () => db.freestyle(``),
+        clubesSemPartidas: () => db.freestyle(``),
+        clubesSemDesempenho: () => db.freestyle(``),
+        clubesSemOverUnder: () => db.freestyle(``),
+        partidasSemEventos: () => db.freestyle(``),
+        partidasSemJogadores: () => db.freestyle(``),
+        jogadoresSemEstatisticas: () => db.freestyle(``),
+        jogadoresSemSkills: () => db.freestyle(``),
+        jogadoresSemClube: () => db.freestyle(``),
+        jogadoresRepetidos: () => db.freestyle(``),
+        relacoesParaJogadoresEclubesRepetidos: () => db.freestyle(``),
+    },
     partidas: {
         lista: () => db.freestyle(`SELECT * FROM partida`),
         porPais: (idPais) => {
