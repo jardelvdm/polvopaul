@@ -185,6 +185,7 @@ CREATE TABLE `jogadores` (
   `marketValue` int(11) DEFAULT NULL,
   `nationality` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `nickname` varchar(120) COLLATE utf8_unicode_ci NOT NULL,
+  `imc` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=24406 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -218,39 +219,43 @@ DROP TABLE IF EXISTS `jogadores_estatisticas`;
 CREATE TABLE `jogadores_estatisticas` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `jogador_clube` int(11) NOT NULL,
-  `yellow_cards` int(11) DEFAULT NULL,
-  `matches` int(11) DEFAULT NULL,
-  `shots_on_goal` int(11) DEFAULT NULL,
-  `shots_off_goal` int(11) DEFAULT NULL,
-  `shots_blocked` int(11) DEFAULT NULL,
-  `minutes_played` int(11) DEFAULT NULL,
-  `substituted_in` int(11) DEFAULT NULL,
-  `substituted_out` int(11) DEFAULT NULL,
-  `team_scored` int(11) DEFAULT NULL,
-  `team_conceded` int(11) DEFAULT NULL,
-  `total_shots` int(11) DEFAULT NULL,
-  `matches_won` int(11) DEFAULT NULL,
-  `matches_lost` int(11) DEFAULT NULL,
-  `matches_drawn` int(11) DEFAULT NULL,
-  `number_of_cards_2nd_half` int(11) DEFAULT NULL,
-  `goals` int(11) DEFAULT NULL,
-  `offside` int(11) DEFAULT NULL,
-  `penalties` int(11) DEFAULT NULL,
-  `goal_points` int(11) DEFAULT NULL,
-  `last_goals` int(11) DEFAULT NULL,
-  `assists` int(11) DEFAULT NULL,
-  `first_goals` int(11) DEFAULT NULL,
-  `corners` int(11) DEFAULT NULL,
-  `number_of_cards_1st_half` int(11) DEFAULT NULL,
-  `goals_by_header` int(11) DEFAULT NULL,
-  `red_cards` int(11) DEFAULT NULL,
-  `own_goals` int(11) DEFAULT NULL,
-  `yellowred_card` int(11) DEFAULT NULL,
-  `yellowred_cards` int(11) DEFAULT NULL,
+  `active` tinyint(1) DEFAULT NULL,
+  `assists` int(11) DEFAULT '0',
+  `corners` int(11) DEFAULT '0',
+  `first_goals` int(11) DEFAULT '0',
+  `goal_points` int(11) DEFAULT '0',
+  `goals` int(11) DEFAULT '0',
+  `goals_by_header` int(11) DEFAULT '0',
+  `last_goals` int(11) DEFAULT '0',
+  `lastevent` date DEFAULT NULL,
+  `matches` int(11) DEFAULT '0',
+  `matches_drawn` int(11) DEFAULT '0',
+  `matches_lost` int(11) DEFAULT '0',
+  `matches_won` int(11) DEFAULT '0',
+  `minutes_played` int(11) DEFAULT '0',
+  `number_of_cards_1st_half` int(11) DEFAULT '0',
+  `number_of_cards_2nd_half` int(11) DEFAULT '0',
+  `offside` int(11) DEFAULT '0',
+  `own_goals` int(11) DEFAULT '0',
+  `penalties` int(11) DEFAULT '0',
+  `red_cards` int(11) DEFAULT '0',
+  `shots_blocked` int(11) DEFAULT '0',
+  `shots_off_goal` int(11) DEFAULT '0',
+  `shots_on_goal` int(11) DEFAULT '0',
+  `started` int(11) DEFAULT '0',
+  `substituted_in` int(11) DEFAULT '0',
+  `substituted_out` int(11) DEFAULT '0',
+  `team_conceded` int(11) DEFAULT '0',
+  `team_matches` int(11) DEFAULT '0',
+  `team_scored` int(11) DEFAULT '0',
+  `total_shots` int(11) DEFAULT '0',
+  `yellow_cards` int(11) DEFAULT '0',
+  `yellowred_card` int(11) DEFAULT '0',
+  `yellowred_cards` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `jogador_clube` (`jogador_clube`),
   CONSTRAINT `jogadores_clube_estatistica_ibfk_1` FOREIGN KEY (`jogador_clube`) REFERENCES `jogadores_clube` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB AUTO_INCREMENT=8093 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -545,7 +550,7 @@ CREATE TABLE `partida` (
   CONSTRAINT `partica_campeonato` FOREIGN KEY (`campeonato`) REFERENCES `campeonatos` (`id`),
   CONSTRAINT `partidas_away_clube_ibfk_1` FOREIGN KEY (`away_id`) REFERENCES `clubes` (`id`),
   CONSTRAINT `partidas_home_clube_ibfk_1` FOREIGN KEY (`home_id`) REFERENCES `clubes` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1510 DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB AUTO_INCREMENT=1478 DEFAULT CHARSET=utf16;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -590,4 +595,4 @@ CREATE TABLE `skills` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-04  0:39:25
+-- Dump completed on 2021-05-05 23:53:24
