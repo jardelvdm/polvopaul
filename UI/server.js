@@ -8,7 +8,7 @@ const fs = require('fs');
 var bodyParser = require('body-parser');
 
 const api = require('../scripts/bet365/api'),
-      db = require('../scripts/bet365/db');
+      db = require('../scripts/db');
 
 app.use(bodyParser.urlencoded({
     extended: true
