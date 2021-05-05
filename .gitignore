@@ -6,3 +6,5 @@ node_modules
 
 dados/*
 scripts/bet365/erros/*
+*.xlsx
+package-lock.json
