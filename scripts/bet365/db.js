@@ -143,12 +143,41 @@ const db = {
         porCampeonato: (idCampeonato) => {
 
         },
-        porClube: (idPartida) => {
+        porClube: (idClube) => new Promise((resolve,reject) =>{
+            // os clubes foram inseridos repetidos pois o parse se deu por competição
+            // uma vez que o clube participe de duas competições, foi inserido 2x
 
-        },
-        porPartida: () => new Promise((resolve,reject) => {
+            // funciona pra inglaterra, sem clubes repetidos
+            // const queryJogadoresClube = `
+            //     SELECT jogadores_clube.id, jogadores.bet365 FROM jogadores_clube 
+            //     INNER JOIN jogadores ON jogadores.id = jogadores_clube.jogador_id 
+            //     WHERE jogadores_clube.clube_id = ${idClube} 
+            //     GROUP BY jogadores.bet365
+            // `
 
+            // funciona pra outros lugares em que ha clubes repetidos
+            const queryJogadoresClube = `
+                SELECT * FROM clubes
+                INNER JOIN jogadores_clube ON jogadores_clube.clube_id = clubes.id 
+                INNER JOIN jogadores ON jogadores.id = jogadores_clube.jogador_id 
+                WHERE clubes.bet365 = ${idClube} 
+                GROUP BY jogadores.bet365
+            `
+
+            db.freestyle(queryJogadoresClube)
+                .then(jogadoresClube => resolve(jogadoresClube))
+                .then(erro => reject(erro))
         }),
+        porPartida: (idPartida) => {
+            const query = `
+                SELECT * FROM partida
+                INNER JOIN jogadores_partida ON jogadores_partida.partida = partida.id
+                INNER JOIN jogadores_clube ON jogadores_clube.id = jogadores_partida.id
+                INNER JOIN jogadores ON jogadores.id = jogadores_clube.jogador_id
+                WHERE partida.id = ${idPartida}
+            `
+            return db.freestyle(query);
+        },
         porPartidaUsandoListaComoReferencia: (todosJogadoresPartida) => new Promise((resolve,reject) => {
             const queryJogadoresPartida = `
                 SELECT jogadores.bet365, jogadores_clube.id as jcid FROM jogadores 
