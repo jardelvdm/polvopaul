@@ -1,6 +1,6 @@
 const fs = require('fs');
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {
@@ -15,7 +15,7 @@ db.connect().then(() => {
         function inserePartidasTemporada (indiceCampeonatos) {
             console.log('inserePartidasTemporada',indiceCampeonatos)
             const campeonato = campeonatos[indiceCampeonatos];
-            API.partidasTemporada(campeonato.bet365_season).then(partidas => {  
+            bet365.partidasTemporada(campeonato.bet365_season).then(partidas => {  
                 let listaPartidas = partidas.map(partida => models.modelPartidas(partida,idCampeonato));
                 let partidasLength = listaPartidas.length;
 

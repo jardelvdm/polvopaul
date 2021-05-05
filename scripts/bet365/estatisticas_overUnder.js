@@ -1,6 +1,6 @@
 const fs = require('fs');
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {
@@ -8,7 +8,7 @@ db.connect().then(() => {
         let campeonato = campeonatos[0];
 
         db.timesPais(51).then(timesPais => {
-            API.overunderTimes(campeonato.bet365_season).then(stats => {
+            bet365.overunderTimes(campeonato.bet365_season).then(stats => {
                 // console.log('timesPais',timesPais)
                 let estatisticasFormatadas = stats.map(s => 
                         models.modelEstatisticas_overUnder_clube(

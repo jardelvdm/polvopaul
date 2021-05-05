@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-const idPartida = yargs.idPartida; // a partir desse id, podemos consultar na api as partidas anteriories e ir parseando elas
+const idPartida = yargs.idPartida; // a partir desse id, podemos consultar na bet365 as partidas anteriories e ir parseando elas
 const idTime = yargs.idTime;
 const limite = yargs.limite;
 

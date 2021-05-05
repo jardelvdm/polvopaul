@@ -7,7 +7,7 @@ var https = require('https');
 const fs = require('fs');
 var bodyParser = require('body-parser');
 
-const api = require('../scripts/bet365/api'),
+const api = require('../scripts/bet365/bet365'),
       db = require('../scripts/db');
 
 app.use(bodyParser.urlencoded({

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {
@@ -21,7 +21,7 @@ db.connect().then(() => {
             const time = times[indiceTimesLista]
             console.log(indiceTimesLista,time)
     
-            API.plantelTime(time.bet365).then(plantel => {  
+            bet365.plantelTime(time.bet365).then(plantel => {  
                 let jogadores = plantel.jogadores.map(models.modelJogador);
                 let jogadoresLength = jogadores.length;
                 console.log(jogadoresLength)
@@ -65,7 +65,7 @@ db.connect().then(() => {
         // campeonatos.forEach((campeonato,arrayIndice) => {
         //     let i = Number(arrayIndice);
 
-        //     API.timesLiga(campeonato.bet365_season).then(times => {
+        //     bet365.timesLiga(campeonato.bet365_season).then(times => {
         //         console.log(campeonato.nome,times.length)
         //         allClubes[i] = times.map(time => models.modelClube(time.team,campeonato.pais));
 

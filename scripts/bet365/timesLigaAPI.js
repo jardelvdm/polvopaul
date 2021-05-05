@@ -1,5 +1,5 @@
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {
@@ -8,9 +8,9 @@ db.connect().then(() => {
 
 // let idTemporada = 77179;
 
-// API.detalhesLiga(idTemporada).then(dadosLiga => {
+// bet365.detalhesLiga(idTemporada).then(dadosLiga => {
 
-//     // API.timesLiga(idTemporada)
+//     // bet365.timesLiga(idTemporada)
 //     // console.log('dadosLiga',dadosLiga)
 
 //     // const statsTimesLiga = Object.values(dadosLiga.stats);

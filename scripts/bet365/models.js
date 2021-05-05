@@ -1,5 +1,5 @@
 const moment = require("moment")
-const { stats } = require("./api")
+const { stats } = require("./bet365")
 
 module.exports = {
     modelClube: (clube,paisID) => ({

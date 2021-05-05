@@ -1,5 +1,5 @@
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {

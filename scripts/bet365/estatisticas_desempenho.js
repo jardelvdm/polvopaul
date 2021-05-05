@@ -1,6 +1,6 @@
 const fs = require('fs');
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 // [64,45,3,51]
@@ -11,7 +11,7 @@ db.connect().then(() => {
         let campeonato = campeonatos[0];
 
         db.timesPais(3).then(timesPais => {
-            API.teamstats(campeonato.bet365_season).then(stats => {
+            bet365.teamstats(campeonato.bet365_season).then(stats => {
                 let estatisticasFormatadas = stats.map(s => 
                         models.modelEstatisticas_desempenho_clube(
                             s,

@@ -1,7 +1,7 @@
 const fs = require('fs');
-const { detalhesPartida } = require('./api');
+const { detalhesPartida } = require('./bet365');
 const models = require('./models'),
-      API = require('./api'),
+      bet365 = require('./bet365'),
       db = require('../db');
 
 db.connect().then(() => {
@@ -102,7 +102,7 @@ db.connect().then(() => {
             // const partida = partidas.find(p => p.bet365 == 23204403);
             console.log('nova partida',partida.bet365,' - ',indicePartida,'de',partidasLength)
 
-            API.detalhesPartida(null,partida.bet365).then(detalhesPartida => {
+            bet365.detalhesPartida(null,partida.bet365).then(detalhesPartida => {
                 Promise.all([
                     registraEventosPartida(partida,detalhesPartida),
                     registraJogadoresPartida(partida,detalhesPartida)
