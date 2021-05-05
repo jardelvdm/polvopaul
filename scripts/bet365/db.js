@@ -105,11 +105,7 @@ const db = {
         })  
     }),
     partidas: {
-        lista: () => new Promise((resolve,reject) => {
-            db.freestyle(`SELECT * FROM partida`)
-                .then(partidas => resolve(partidas))
-                .catch(erro => reject(erro))
-        }),
+        lista: () => db.freestyle(`SELECT * FROM partida`),
         porPais: (idPais) => {
 
         },
@@ -124,11 +120,7 @@ const db = {
         }
     },
     jogadores: {
-        lista: () => new Promise((resolve,reject) => {
-            db.freestyle(`SELECT * FROM jogadores`)
-                .then(jogadores => resolve(jogadores))
-                .catch(erro => reject(erro))
-        }),
+        lista: () => db.freestyle(`SELECT * FROM jogadores`),
         porPais: (idPais) => {
 
         },
